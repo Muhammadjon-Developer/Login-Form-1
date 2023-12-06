@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form - 1</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- fontawesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <div class="container" id="container">
+    <div class="form-container register">
+      <form>
+        <h1>Register</h1>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <input type="text" placeholder="Username">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Confirm Password">
+        <button>Register</button>
+      </form>
+    </div>
+    <!-- Login -->
+    <div class="form-container login">
+      <form>
+        <h1>Login</h1>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <a href="#">Forgot Your Password?</a>
+        <button>Login</button>
+      </form>
+    </div>
+    <div class="toggle-container">
+      <div class="toggle">
+        <div class="toggle-panel left">
+          <h2>Welcome Back.</h2>
+          <p>login to the website.</p>
+          <button class="hidden" id="login">Login</button>
+        </div>
+        <!-- Right -->
+        <div class="toggle-panel right">
+          <h2>Hi, welcome to our website.</h2>
+          <p>Register to use th ewebsite.</p>
+          <button class="hidden" id="register">Register</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
